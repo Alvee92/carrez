@@ -1,0 +1,11 @@
+{
+	"title": "Schema LeBonCoin",
+	"type": "object",
+	"properties": {
+		"town": "string",
+		"zip": "string",
+		"type": "string",
+		"price": "string",
+		"surface": "string"
+	}
+}
