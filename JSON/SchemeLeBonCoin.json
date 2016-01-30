@@ -5,7 +5,7 @@
 		"town": "string",
 		"zip": "string",
 		"type": "string",
-		"price": "string",
+		"price": "integer",
 		"surface": "string"
 	}
 }

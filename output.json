@@ -1,0 +1,11 @@
+{
+    "title": "Schema LeBonCoin",
+    "type": "object",
+    "properties": {
+        "town": "Yerres",
+        "zip": "91330",
+        "type": "string",
+        "price": "295 000 €",
+        "surface": "string"
+    }
+}
