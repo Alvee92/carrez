@@ -4,8 +4,9 @@
     "properties": {
         "town": "Yerres",
         "zip": "91330",
-        "type": "string",
+        "type": "Appartement",
+        "room": "5",
         "price": "295 000 €",
-        "surface": "string"
+        "surface": "100 m"
     }
 }
