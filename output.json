@@ -2,11 +2,11 @@
     "title": "Schema LeBonCoin",
     "type": "object",
     "properties": {
-        "town": "Yerres",
-        "zip": "91330",
+        "town": "Arcueil",
+        "zip": "94110",
         "type": "Appartement",
-        "room": "5",
-        "price": "295 000 €",
-        "surface": "100 m"
+        "room": "3",
+        "price": "318 000 €",
+        "surface": "60 m"
     }
 }
