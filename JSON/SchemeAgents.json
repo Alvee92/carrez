@@ -5,17 +5,7 @@
 		"zip": "string",
 		"town": "string",
 		"surface": "string",
-		"appartement": {
-			"max": "string",
-			"min": "string",
-			"averrage": "string"
-		},
-		"house": {
-			"max": "string",
-			"min": "string",
-			"averrage": "string"
-		},
-		"rent": {
+		"price": {
 			"max": "string",
 			"min": "string",
 			"averrage": "string"
