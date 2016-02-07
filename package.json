@@ -8,6 +8,7 @@
     "body-parser": "^1.14.2",
     "cheerio": "latest",
     "express": "latest",
+    "jsdom": "^8.0.2",
     "request": "latest"
   }
 }

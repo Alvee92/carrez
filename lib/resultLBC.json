@@ -2,11 +2,11 @@
     "title": "Schema LeBonCoin",
     "type": "object",
     "properties": {
-        "town": "Boulogne-Billancourt",
-        "zip": "92100",
+        "town": "Arcueil",
+        "zip": "94110",
         "type": "Appartement",
-        "room": "1",
-        "price": "990 €",
-        "surface": "Non meublé"
+        "room": "4",
+        "price": 305,
+        "surface": 82
     }
 }
