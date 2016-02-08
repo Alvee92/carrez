@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  
+$(document).ready(function(data) {
+
   var animating = false,
       submitPhase1 = 1100,
       submitPhase2 = 400,

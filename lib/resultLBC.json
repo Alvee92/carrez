@@ -2,11 +2,11 @@
     "title": "Schema LeBonCoin",
     "type": "object",
     "properties": {
-        "town": "Arcueil",
-        "zip": "94110",
-        "type": "Appartement",
-        "room": "4",
-        "price": 305,
-        "surface": 82
+        "town": "",
+        "zip": "",
+        "type": "string",
+        "room": "integer",
+        "price": null,
+        "surface": "integer"
     }
 }

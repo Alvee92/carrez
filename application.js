@@ -6,9 +6,6 @@ var port = '8080';
 var bodyParser = require('body-parser');
 var app = express();
 
-
-var port = 8080;
-
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -21,6 +18,16 @@ app.post('/url', function(req, res){
   var url = req.body.url;
  
   leboncoin.scrape(url, function (err, data) {
+  
+	if(err != null)
+		{
+		console.log(err);
+			data = {
+				error: "An error occured with the url",
+			}
+			res.json(data);
+		}
+	else {
 		
 		
 		agents.compare(data, function (err, data) {
@@ -32,16 +39,20 @@ app.post('/url', function(req, res){
 					res.json(finalres);
 			}
 			else {
-				res.json({message: 'An error occured!'})
+				data = {
+				error: "An error occured with meilleursagents",
+			}
+			res.json(data);
 				}
 				
 				
 			});
+		}
 		});
 });
 
 
-app.listen(8080,function () {;
+app.listen(port,function () {;
 
-  console.log('Litstenning');
+  console.log('Litstenning on '+host+ ':' + port);
 });
