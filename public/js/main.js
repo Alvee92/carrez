@@ -18,6 +18,7 @@ $("#compute").click(function () {
 		
 		if(data.finalres.properties.deal == 1)
 		{
+		
 			$(".app__hello").text("Good Deal !");
 			$('.app__user-photo').attr('src','./img/Thumbs_Up.png');
 		}

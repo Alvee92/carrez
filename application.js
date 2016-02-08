@@ -32,7 +32,7 @@ app.post('/url', function(req, res){
 					res.json(finalres);
 			}
 			else {
-				res.json({message: 'Ab error occured!'})
+				res.json({message: 'An error occured!'})
 				}
 				
 				
@@ -44,5 +44,4 @@ app.post('/url', function(req, res){
 app.listen(8080,function () {;
 
   console.log('Litstenning');
-  console.log(test);
 });
