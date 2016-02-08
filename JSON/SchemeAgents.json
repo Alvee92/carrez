@@ -2,9 +2,13 @@
 	"title": "Schema MeilleursAgents",
 	"type": "object",
 	"properties": {
+		"type": "string",
 		"zip": "string",
 		"town": "string",
-		"surface": "string",
+		"surface": "integer",
+		"price_m2": "integer",
+		"deal" :"integer",
+		"ini_price" :"integer",
 		"price": {
 			"max": "string",
 			"min": "string",

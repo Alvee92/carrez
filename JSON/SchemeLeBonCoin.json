@@ -8,5 +8,7 @@
 		"room": "integer",
 		"price": "integer",
 		"surface": "integer"
+		
+		
 	}
 }
