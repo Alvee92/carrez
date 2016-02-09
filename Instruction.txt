@@ -1,3 +1,0 @@
--Utilisateur arrive sur la page.
-il rentre l'uril de la page lbc
-on lui dit si c'est plus chere ou moins chere que le prix moyen.
