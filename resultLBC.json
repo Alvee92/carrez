@@ -2,11 +2,11 @@
     "title": "Schema LeBonCoin",
     "type": "object",
     "properties": {
-        "town": "Arcueil",
-        "zip": "94110",
+        "town": "Levallois-Perret",
+        "zip": "92300",
         "type": "Appartement",
         "room": "3",
-        "price": 249000,
-        "surface": 49
+        "price": 625000,
+        "surface": 82
     }
 }
