@@ -1,3 +1,11 @@
+Instruntions:
+
+-Use npm install
+-Use npm start to launch the server.
+-The server is set on 127.0.0.1:8080
+
+The application is not using cookies, it means that it can only be used on the city Levallois.
+
 # LOI CARREZ
 
 > node.js workshop based on real estate
